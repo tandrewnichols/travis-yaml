@@ -10,11 +10,19 @@ Load your travis yaml configuration into node
 
 ## Summary
 
-## Usage
+This library does what you'd expect: loads your .travis.yml as an object. You can do this synchronously or asynchronously (by passing a callback).
 
+```js
+var travisYaml = require('travis-yaml');
 
+// Sync
+var travis = travisYaml();
 
-### Example
+// Async
+travisYaml(function(err, travis) {
+
+});
+```
 
 ## Contributing
 
