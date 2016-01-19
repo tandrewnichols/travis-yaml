@@ -14,4 +14,4 @@ node_js:
   - "iojs-v3"
 cache:
   directories:
-    - 'node_modules'
+    - "node_modules"
